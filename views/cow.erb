@@ -1,13 +1,13 @@
 <% if @comp_move == "rock"
-    @outcome = "won"
-  elsif @comp_move == "paper"
-    @outcome = "tied"
-  else
     @outcome = "lost"
+  elsif @comp_move == "paper"
+    @outcome = "won"
+  else
+    @outcome = "tied"
   end %>
 
 <h2>
-  We played paper!
+  We played scissors!
 </h2>
 
 <h2>
